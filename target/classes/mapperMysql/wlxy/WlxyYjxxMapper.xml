@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatie.org//DTD Mapper 3.0//EN" "htu://mybatie.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.windmill.zyfz.api.mapper.wlxy.WlxyYjxxMapper">
+
+	<select id="queryUser" resultType="map">
+		select id,name,age from user
+	</select>
+
+	
+</mapper>

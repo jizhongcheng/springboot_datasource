@@ -1,0 +1,17 @@
+#spring:
+#  application:
+#    name: zyfz-achi
+#  cloud:
+#    config:
+#      name: zyfz-achi
+#      profile: dev
+##      uri: http://192.168.1.200:8762
+##      uri: http://192.168.1.23:8762
+#      fail-fast: true
+#      discovery:
+#        enabled: true
+#        service-id: windmill-config
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    time-zone: Asia/Shanghai
+#    default-property-inclusion: non-null
